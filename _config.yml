@@ -13,12 +13,33 @@ theme_settings :
     username : Hyunseok Choi
     description : 👊Junior backend developer 
     experience :
+      - start : 2020-05
+        end : 2020-12
+        experience : 소프트웨어 마에스트로 11기 연수생
+      - start : 2020-07
+        end : 2020-07
+        experience : 전국 대학생 프로그래밍 동아리 연합 UCPC 본선 진출
       - start : 2019-11
         end : 2019-11
-        experience : ACM-ICPC Seoul
+        experience : ACM-ICPC Seoul 본선 진출, 23 Place
+      - start : 2019-11
+        end : 2019-11
+        experience : 제 1회 가톨릭대학교 프로그래밍 경진대회 CCPC 문제 출제
+      - start : 2019-10
+        end : 2019-10
+        experience : 🏆 2019 가톨릭대학교 교내 프로그래밍 대회 대상 수상
       - start : 2019-07
         end : 2019-08
         experience : SCPC 예선 진출
+      - start : 2019-07
+        end : 2019-07
+        experience : 2019 삼성 SDS 하계 대학생 알고리즘 특강 수료
+      - start : 2018-10
+        end : 2019-12
+        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 회장
+      - start : 2018-06
+        end : 2019-10
+        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 임원
     skills : 
       - skill : C,C++
         value : 70  # Percent value
