@@ -15,10 +15,13 @@ theme_settings :
     experience :
       - start : 2020-05
         end : 2020-12
-        experience : 소프트웨어 마에스트로 11기 연수생
+        experience : 소프트웨어 마에스트로 11기 수료
       - start : 2020-07
         end : 2020-07
         experience : 전국 대학생 프로그래밍 동아리 연합 UCPC 본선 진출
+      - start : 2019-07
+        end : 2019-08
+        experience : 2020 삼성 대학생 프로그래밍 경진대회 SCPC 2차 예선 진출
       - start : 2019-11
         end : 2019-11
         experience : ACM-ICPC Seoul 본선 진출, 23 Place
@@ -27,19 +30,21 @@ theme_settings :
         experience : 제 1회 가톨릭대학교 프로그래밍 경진대회 CCPC 문제 출제
       - start : 2019-10
         end : 2019-10
-        experience : 🏆 2019 가톨릭대학교 교내 프로그래밍 대회 대상 수상
+        experience : 2019 가톨릭대학교 교내 프로그래밍 대회 대상🏆 수상
       - start : 2019-07
         end : 2019-08
-        experience : SCPC 예선 진출
+        experience : 2019 삼성 대학생 프로그래밍 경진대회 SCPC 1차 예선 진출
       - start : 2019-07
         end : 2019-07
         experience : 2019 삼성 SDS 하계 대학생 알고리즘 특강 수료
       - start : 2018-10
         end : 2019-12
-        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 회장
+        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 3기 회장
       - start : 2018-06
         end : 2019-10
-        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 임원
+        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 2기 임원
+      - start : 2014-03
+        experience : 가톨릭대학교 컴퓨터정보공학부 입학
     skills : 
       - skill : C,C++
         value : 70  # Percent value
@@ -47,10 +52,19 @@ theme_settings :
         value : 70  # Percent value
       - skill : Javascript
         value : 70  # Percent value
-      - skill : Docker
-        value : 60  # Percent value
-      - skill : algorithm
+      - skill : Algorithm
         value : 90  # Percent value
+      - skill : Node.js
+        value : 70  # Percent value
+      - skill : Vue.js
+        value : 50  # Percent value
+      - skill : Spring boot
+        value : 60  # Percent value
+      - skill : Docker
+        value : 70  # Percent value
+      - skill : AWS
+        value : 0  # Percent value
+
         
   # Icons
   icons :
