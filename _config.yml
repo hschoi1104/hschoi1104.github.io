@@ -1,31 +1,42 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://hschoi1104.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : hschoi1104 Portfolio
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username : Hyunseok Choi
+    description : 👊Junior backend developer 
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2019-11
+        end : 2019-11
+        experience : ACM-ICPC Seoul
+      - start : 2019-07
+        end : 2019-08
+        experience : SCPC 예선 진출
     skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
+      - skill : C,C++
+        value : 70  # Percent value
+      - skill : Java
+        value : 70  # Percent value
+      - skill : Javascript
+        value : 70  # Percent value
+      - skill : Docker
+        value : 60  # Percent value
+      - skill : algorithm
+        value : 90  # Percent value
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
+    email:  hschoi1104@gmail.com
     linkedin:  # Full URL 
-    github: naye0ng
-    gitlab: 
+    github: hschoi1104
+    gitlab:
     bitbucket: 
     google_plus:
     twitter:
