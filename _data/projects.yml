@@ -30,28 +30,50 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
+    url :  https://github.com/SoftwareMaestro11-TEAM-0525/Spectrum
     image : /spectrum/intro.png
     date : 2020.05 - 2020.11
     title : SPECTRUM
-    summary : Spectrum - SWM 11
-    description : 경험을 편하게 기록하고 똑똑하게 관리하는 Spectrum
+    summary : 소프트웨어 마에스트로 11기 - Team 0525
+    description : 마인드맵 오픈소스 Cytoscape.js 를 활용해 사용자의 경험을 시각화 하고 쉽게 정리하며 머신러닝을 이용해 똑똑하게 관리할 수 있는 프로젝트 Spectrum
     contents :
-        - title : 1. 블로그 첫 화면 구성
-          image : home.png
-          description : <li>Responsive Layout</li>
-            <li>User Profile</li> 
-            <li>Tags</li> 
-            <li>Projects</li> 
-            <li>Pagination</li>
-        - title : 2. 태그 페이지
-          image : tags.png
-          description : <li>Responsive Layout</li> 
-            <li>Tags</li> 
-        - title : 3. 남은 개발 과제
-          image :
-          description : <li>project 부분 디자인 변경</li>
-            <li>favicon.ico, search 기능</li>
-            <li>OG Tag 추가</li>
-            <li>profile 이미지 효과</li>
-            <li>gem 배포</li> 
+        - title : Role
+          description : <li>기획, 설계</li>
+            <li>Backend 개발</li>
+            <li>서비스 배포 담당</li>
+            <li>CI/CD 프로세스 개발</li>
+            <li>핵심 키워드/문장 추출 기능 개발 설계</li>
+            <li>노드 위치 추천 기능 개발 설계</li>
+         - title : Skill
+          description : <li>Node.js - express</li>
+            <li>Vue.js</li>
+            <li>Flask</li>
+            <li>Mongodb</li>
+            <li>Nginx</li>
+            <li>Uwsgi</li>
+            <li>Docker</li>
+            <li>AWS(EC2,S3,ROUTE53)</li>
+            <li>Gitlab runner</li>
+        - title : System configuration diagram
+          image : /spectrum/system.png
+          description : <li>총 6개의 컨테이너로 구성</li> 
+            <li>Docker-compose 를 이용한 컨테이너 관리</li> 
+            <li>Gitlab-runner컨테이너는 CI/CD 프로세스 활용</li> 
+        - title : function - 1.마인드맵을 통한 경험의 관리
+          image : /spectrum/mindmap_1.png
+          image : /spectrum/mindmap_2.png
+        - title : function - 2.경험의 공유
+          image : /spectrum/share.png
+        - title : function - 3.경험의 요약 - 타임라인
+          image : /spectrum/timeline.png
+        - title : function - 3.경험의 요약 - 워드클라우드
+          image : /spectrum/wordcloud.png
+        - title : function - 3.경험의 요약 - 핵심 키워드 및 문장추출
+          description : <li>KRWordRank</li> 
+            <li>Konlpy</li> 
+            <li>TextRankKr</li> 
+        - title : function - 4. 노드 위치 추천
+          description : <li>TF-IDF</li> 
+            <li>Cosine similarity</li> 
+        - title : 프로그램 저작물 등록증
+          image : /spectrum/copyright.png
