@@ -44,7 +44,7 @@
             <li>CI/CD 프로세스 개발</li>
             <li>핵심 키워드/문장 추출 기능 개발 설계</li>
             <li>노드 위치 추천 기능 개발 설계</li>
-         - title : Skill
+        - title : Skill
           description : <li>Node.js - express</li>
             <li>Vue.js</li>
             <li>Flask</li>
