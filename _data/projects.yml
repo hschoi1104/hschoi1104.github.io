@@ -1,35 +1,6 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/naye0ng/Grape-Theme # Full URL
-    image : "portfolio.png" # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Grape-Theme
-    summary : A awesome jekyll theme!
-    description : This project is my first jekyll theme. and everyone can customize this easily.  
-    contents :
-        - title : 1. 블로그 첫 화면 구성
-          image : home.png
-          description : <li>Responsive Layout</li>
-            <li>User Profile</li> 
-            <li>Tags</li> 
-            <li>Projects</li> 
-            <li>Pagination</li>
-        - title : 2. 태그 페이지
-          image : tags.png
-          description : <li>Responsive Layout</li> 
-            <li>Tags</li> 
-        - title : 3. 남은 개발 과제
-          image :
-          description : <li>project 부분 디자인 변경</li>
-            <li>favicon.ico, search 기능</li>
-            <li>OG Tag 추가</li>
-            <li>profile 이미지 효과</li>
-            <li>gem 배포</li> 
-
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/SoftwareMaestro11-TEAM-0525/Spectrum
     image : /spectrum/intro.png
     date : 2020.05 - 2020.11
@@ -79,3 +50,53 @@
             <li>Cosine similarity</li> 
         - title : 프로그램 저작물 등록증
           image : /spectrum/copyright.png
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://github.com/Tekiter/EZSET
+    image : /ezset/intro.png
+    date : 2019.11 - 2020.03
+    title : EZSET
+    summary : <li>소모임이나 동아리를 위한 그룹웨어 프로젝트</li>            
+    description : <li>현재 www.alcuk.co.kr에서 서비스 운영 중</li>
+      <li>API DOC https://tekiter.github.io/EZSET/</li>
+    contents :
+        - title : Function Summary
+          description : <li>실시간 출석체크</li>
+            <li>출결관리</li>
+            <li>일정관리</li>
+            <li>자료실</li>
+            <li>커뮤니티 (게시판)</li>
+            <li>상벌점관리</li>
+        - title : Role
+          description : <li>실시간 출석체크기능 설계 및 개발</li>
+            <li>일/월/특정날짜범위별 출석현황 보기 기능 설계 및 개발</li>
+            <li>상벌점체크기능 설계 및 개발</li>
+            <li>일정표 설계 및 개발</li>
+            <li>서버 배포, 운영 및 유지보수 담당</li>
+        - title : Skill
+          description : <li>Node.js - express</li>
+            <li>Vue.js</li>
+            <li>Mongodb</li>
+            <li>Nginx</li>
+            <li>AWS(EC2, ROUTE53)</li>
+        - title : function - 1. 실시간 출석체크
+          description : <li>Socket.io를 활용한 실시간 출석체크 기능</li>
+            <li>관리자가 출석시작을 누르면 다른 사용자들에게 입력할 출석번호 표시</li>
+            <li>다른 사용자들은 출석번호를 입력하여 출석체크</li>
+            <li>관리자가 출석종료를 누르면 현재 진행중인 출석체크 종료</li>
+            <li>3분 후 현재 진행중인 출석체크 종료</li>
+        - title : function - 2. 일별/월별 출석현황 보기 기능
+          description : <li>일/월/특정기간범위별 출석현황 보기 가능</li>
+            <li>관리자는 모든 회원의 출석현황(출석/결석/지각/공결)현황을 확인할 수 있음.</li>
+            <li>다른 사용자들은 출석번호를 입력하여 출석체크</li>
+            <li>일반사용자는 자신의 출석현황을 확인할 수 있음.</li>
+        - title : function - 3. 상벌점 관리 기능
+          description : <li>관리자는 특정 사용자에게 상/벌점 부여가능</li>
+            <li>- 사용자는 자신에게 부여된 상/벌점 확인가능</li>
+        - title : function - 4. 일정 관리 기능
+          description : <li>관리자는 일정표에 일정을 등록할 수 있고 누구나 확인할 수 있음</li>
+        - title : Production
+          description : <li>현재 AWS EC2를 통해 서버가 20.02월 부터 현재까지 www.alcuk.co.kr 도메인에서 계속 운영중</li>
+
