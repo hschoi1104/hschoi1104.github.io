@@ -69,10 +69,12 @@
         - title : function - 3.경험의 요약 - 워드클라우드
           image : /spectrum/wordcloud.png
         - title : function - 3.경험의 요약 - 핵심 키워드 및 문장추출
+          image : /spectrum/summary.png
           description : <li>KRWordRank</li> 
             <li>Konlpy</li> 
             <li>TextRankKr</li> 
         - title : function - 4. 노드 위치 추천
+          image : /spectrum/recommend.png
           description : <li>TF-IDF</li> 
             <li>Cosine similarity</li> 
         - title : 프로그램 저작물 등록증
