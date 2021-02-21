@@ -11,7 +11,8 @@ theme_settings :
   profile :
     image : assets/img/smile.png
     username : Hyunseok Choi
-    description : 👊Junior backend developer 
+    description : <li>BOJ - <a href="https://www.acmicpc.net/user/hschoi1104">hschoi1104</a></li>
+            <li>blog - <a href="https://velog.io/@hschoi1104">hschoi1104</a></li>
     experience :
       - start : 2020-05
         end : 2020-12
@@ -39,10 +40,10 @@ theme_settings :
         experience : 2019 삼성 SDS 하계 대학생 알고리즘 특강 수료
       - start : 2018-10
         end : 2019-12
-        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 3기 회장
+        experience : 가톨릭대학교 알고리즘 문제해결 소모임 ALCUK 3기 회장
       - start : 2018-06
         end : 2019-10
-        experience : 가톨릭대학교 알고리즘 소모임 ALCUK 2기 임원
+        experience : 가톨릭대학교 알고리즘 문제해결 소모임 ALCUK 2기 임원
       - start : 2014-03
         experience : 가톨릭대학교 컴퓨터정보공학부 입학
     skills : 
