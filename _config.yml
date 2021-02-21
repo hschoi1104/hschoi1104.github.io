@@ -45,10 +45,11 @@ theme_settings :
         end : 2019-10
         experience : 가톨릭대학교 알고리즘 문제해결 소모임 ALCUK 2기 임원
       - start : 2014-03
+        end : 2021-02
         experience : 가톨릭대학교 컴퓨터정보공학부 입학
     skills : 
       - skill : C,C++
-        value : 70  # Percent value
+        value : 60  # Percent value
       - skill : Java
         value : 70  # Percent value
       - skill : Javascript
@@ -58,7 +59,7 @@ theme_settings :
       - skill : Node.js
         value : 70  # Percent value
       - skill : Vue.js
-        value : 50  # Percent value
+        value : 60  # Percent value
       - skill : Spring boot
         value : 60  # Percent value
       - skill : Docker
